@@ -1,0 +1,4 @@
+summaries/*
+*.pyc
+.DS_Store
+index.hf/*
