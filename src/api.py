@@ -1,6 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from .model_components import EmbeddingModel, DatasetIndexer, QueryEngine
+from .embedding_model import EmbeddingModel
+from .dataset_indexer import DatasetIndexer
+from .query_engine import QueryEngine
 
 app = FastAPI()
 
